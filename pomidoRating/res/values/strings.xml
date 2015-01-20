@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pomidoRating</string>
+    <string name="capture">shoot</string>
+    <string name="server_address">http://saleapartment.ru/rating/upload.php</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">О программе</string>
+    <string name="about">Приложение для оценки спикеров, разработано специально для MDDay</string>
+    <string name="setting_auto">Автоприцел</string>
+    <string name="setting_server">Выгрузка на сервер </string>
+	<string name="setting_save">Сохранение в папку </string>
+</resources>

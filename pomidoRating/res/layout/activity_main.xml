@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:id="@+id/layout">
+
+ <ImageButton
+  android:id="@+id/capture" 
+  android:layout_width="180dp"
+  android:layout_height="180dp"
+  android:contentDescription="@string/capture"
+  android:layout_gravity="bottom|left"
+  android:background="@drawable/flowers_button"
+ />
+ 
+ <ImageButton
+  android:id="@+id/capture2" 
+  android:layout_width="180dp"
+  android:layout_height="180dp"
+  android:contentDescription="@string/capture"
+  android:layout_gravity="bottom|right"
+  android:background="@drawable/tomat_button"
+ />
+ 
+ <ImageView
+ android:id="@+id/image"
+ android:layout_width="78dp"
+ android:layout_height="78dp"
+ android:background="@drawable/tomat"
+ android:visibility="invisible" />
+ 
+ <ImageView
+ android:id="@+id/target"
+ android:layout_width="78dp"
+ android:layout_height="78dp"
+ android:background="@drawable/target"
+/>
+ 
+ 
+</FrameLayout>

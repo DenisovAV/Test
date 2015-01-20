@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:id="@+id/splash"
+ android:orientation="vertical"
+ >
+
+ <ImageView
+ android:id="@+id/splash_tomat"
+ android:layout_width="150dp"
+ android:layout_height="150dp"
+ android:background="@drawable/tomat"
+ android:layout_gravity="center|center_vertical"/>
+
+ </FrameLayout>
